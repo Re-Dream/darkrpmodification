@@ -7,7 +7,7 @@ include("shared.lua")
 
 ENT.SeizeReward = 950
 
-ENT.PrintAmount = 750
+ENT.PrintAmount = 7500
 ENT.PrintDelay = .01
 ENT.PrintHealth = 200
 ENT.PrintMaxMoney = 200000
