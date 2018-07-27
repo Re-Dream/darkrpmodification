@@ -47,3 +47,11 @@ DarkRP.createEntity("Quantum Money Printer", {
     max = 2,
     cmd = "buyquantumprinter"
 })
+
+DarkRP.createEntity("Supernova Money Printer", {
+    ent = "supernova_printer",
+    model = "models/props_c17/consolebox01a.mdl",
+    price = 125000,
+    max = 2,
+    cmd = "buysupernovaprinter"
+})
