@@ -79,7 +79,7 @@ end
 function ENT:BurstIntoFlames()
 	DarkRP.notify(self:Getowning_ent(), 0, 4, DarkRP.getPhrase("money_printer_overheating"))
 	self.burningup = true
-	local burntime = 1
+	local burntime = 2
 	self:Ignite(burntime, 0)
 	self:SetNWBool("printer_isburning", true)
 	timer.Simple(burntime, function() self:Fireball() end)
