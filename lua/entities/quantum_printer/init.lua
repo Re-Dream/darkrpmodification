@@ -11,8 +11,10 @@ ENT.PrintAmount = 2500
 ENT.PrintDelay = 4
 ENT.PrintHealth = 200
 ENT.PrintMaxMoney = 65000
-ENT.LastPrint = CurTime()
 ENT.PrintType = "Quantum"
+ENT.PrintOverheatChance = 45
+ENT.LastPrint = CurTime()
+
 
 function ENT:Initialize()
 	self:SetModel("models/props_c17/consolebox01a.mdl")
@@ -103,9 +105,7 @@ function ENT:CreateMoneybag()
 	if not IsValid(self) or self:IsOnFire() then return end
 
 	if GAMEMODE.Config.printeroverheat then
-		local overheatchance = GAMEMODE.Config.printeroverheatchance or 3
-		
-		local DoBurstIntoFlames = math.random(1, overheatchance) == 3
+		local DoBurstIntoFlames = math.random(1, self.PrintOverheatChance) < 2
 		if DoBurstIntoFlames then
 			self:BurstIntoFlames()
 		end
