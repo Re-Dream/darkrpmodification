@@ -21,7 +21,9 @@ function ENT:Initialize()
 	self:SetSolid(SOLID_VPHYSICS)
 	self:SetUseType(SIMPLE_USE)
 	local phys = self:GetPhysicsObject()
-	phys:Wake()
+	if IsValid(phys) then
+		phys:Wake()
+	end
 
 	self.sparking = false
 	self.damage = 100
