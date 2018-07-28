@@ -12,7 +12,7 @@ ENT.PrintDelay = 4
 ENT.PrintHealth = 200
 ENT.PrintMaxMoney = 65000
 ENT.PrintType = "Quantum"
-ENT.PrintOverheatChance = 45
+ENT.PrintOverheatChance = 90
 ENT.LastPrint = CurTime()
 
 

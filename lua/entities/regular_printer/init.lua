@@ -12,7 +12,7 @@ ENT.PrintDelay = 10
 ENT.PrintHealth = 100
 ENT.PrintMaxMoney = 5000
 ENT.PrintType = "Regular"
-ENT.PrintOverheatChance = 30
+ENT.PrintOverheatChance = 60
 ENT.LastPrint = CurTime()
 
 function ENT:Initialize()

@@ -11,7 +11,7 @@ ENT.PrintAmount = 500
 ENT.PrintDelay = 5.5
 ENT.PrintHealth = 150
 ENT.PrintMaxMoney = 15000
-ENT.PrintOverheatChance = 45
+ENT.PrintOverheatChance = 60
 ENT.PrintType = "Overclocked"
 ENT.LastPrint = CurTime()
 
