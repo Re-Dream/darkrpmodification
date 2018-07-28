@@ -16,13 +16,6 @@ http://wiki.darkrp.com/index.php/DarkRP:CustomEntityFields
 
 Add entities under the following line:
 ---------------------------------------------------------------------------]]
-DarkRP.createEntity("Legal Money Printer", {
-    ent = "legal_printer",
-    model = "models/props_c17/consolebox01a.mdl",
-    price = 1000,
-    max = 3,
-    cmd = "buylegalprinter"
-})
 
 DarkRP.createEntity("Regular Money Printer", {
     ent = "regular_printer",
