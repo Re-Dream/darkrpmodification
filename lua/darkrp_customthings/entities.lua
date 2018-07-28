@@ -20,7 +20,7 @@ DarkRP.createEntity("Regular Money Printer", {
     ent = "regular_printer",
     model = "models/props_c17/consolebox01a.mdl",
     price = 2500,
-    max = 2,
+    max = 3,
     cmd = "buyregularprinter"
 })
 
@@ -28,7 +28,7 @@ DarkRP.createEntity("Upgraded Money Printer", {
     ent = "upgraded_printer",
     model = "models/props_c17/consolebox01a.mdl",
     price = 5000,
-    max = 2,
+    max = 3,
     cmd = "buyupgradedprinter"
 })
 
@@ -36,7 +36,7 @@ DarkRP.createEntity("Overclocked Money Printer", {
     ent = "overclocked_printer",
     model = "models/props_c17/consolebox01a.mdl",
     price = 15000,
-    max = 2,
+    max = 3,
     cmd = "buyoverclockedprinter"
 })
 
@@ -44,7 +44,7 @@ DarkRP.createEntity("Quantum Money Printer", {
     ent = "Quantum_printer",
     model = "models/props_c17/consolebox01a.mdl",
     price = 40000,
-    max = 2,
+    max = 3,
     cmd = "buyquantumprinter"
 })
 
@@ -52,6 +52,6 @@ DarkRP.createEntity("Supernova Money Printer", {
     ent = "supernova_printer",
     model = "models/props_c17/consolebox01a.mdl",
     price = 125000,
-    max = 2,
+    max = 3,
     cmd = "buysupernovaprinter"
 })
