@@ -437,6 +437,11 @@ GM.Config.PocketBlacklist = {
     ["gmod_light"] = true,
     ["gmod_lamp"] = true,
     ["gmod_emitter"] = true,
+	["regular_printer"] = true,
+	["upgraded_printer"] = true,
+	["overclocked_printer"] = true,
+	["quantum_printer"] = true,
+	["supernova_printer"] = true
 }
 
 -- These weapons are classed as 'legal' in the weapon checker and are not stripped when confiscating weapons.

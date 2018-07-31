@@ -42,7 +42,7 @@ DarkRP.createEntity("Overclocked Money Printer", {
 })
 
 DarkRP.createEntity("Quantum Money Printer", {
-    ent = "Quantum_printer",
+    ent = "quantum_printer",
     model = "models/props_c17/consolebox01a.mdl",
     price = 40000,
     max = 3,

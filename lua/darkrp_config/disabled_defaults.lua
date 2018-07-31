@@ -14,24 +14,6 @@ If you want to disable or replace the default things, you should disable them he
 Note: if you want to have e.g. edit the official medic job, you MUST disable the default one in this file!
 You can copy the medic from DarkRP and paste it in darkrp_config/jobs.lua
 ---------------------------------------------------------------------------]]
-GM.Config.PocketBlacklist = {
-	["fadmin_jail"] = true,
-	["meteor"] = true,
-	["door"] = true,
-	["func_"] = true,
-	["player"] = true,
-	["beam"] = true,
-	["worldspawn"] = true,
-	["env_"] = true,
-	["path_"] = true,
-	["prop_physics"] = true,
-	["overclocked_printer"] = true,
-	["quantum_printer"] = true,
-	["regular_printer"] = true,
-	["supernova_printer"] = true,
-	["upgraded_printer"] = true,
-	["gunlab"] = true,
-}
 
 --[[---------------------------------------------------------------------------
 The list of modules that are disabled. Set to true to disable, false to enable.
