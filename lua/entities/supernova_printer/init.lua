@@ -8,7 +8,7 @@ include("shared.lua")
 ENT.SeizeReward = 950
 
 ENT.PrintAmount = 7500
-ENT.PrintDelay = .01
+ENT.PrintDelay = .2
 ENT.PrintHealth = 200
 ENT.PrintMaxMoney = 200000
 ENT.LastPrint = CurTime()
